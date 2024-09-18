@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/icon">
+        <file>word/0.png</file>
+        <file>word/1.png</file>
+        <file>word/2.png</file>
+        <file>word/3.png</file>
+        <file>word/4.png</file>
+        <file>word/5.png</file>
+        <file>word/6.png</file>
+        <file>word/7.png</file>
+        <file>word/8.png</file>
+        <file>word/9.png</file>
+        <file>word/icon-word.png</file>
+        <file>word/bold.png</file>
+        <file>word/italic.png</file>
+        <file>word/underline.png</file>
+        <file>word/x.png</file>
+    </qresource>
+</RCC>

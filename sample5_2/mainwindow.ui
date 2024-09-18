@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <item>
+     <widget class="QSplitter" name="splitter">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <widget class="QGroupBox" name="groupBox">
+       <property name="title">
+        <string>TableView</string>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QTableView" name="tableView"/>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_2">
+       <property name="title">
+        <string>PlainTextEdit</string>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QPlainTextEdit" name="plainTextEdit"/>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonTextUnderIcon</enum>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actOpenFile"/>
+   <addaction name="actDataPreview"/>
+   <addaction name="separator"/>
+   <addaction name="actAddRow"/>
+   <addaction name="actInsertLine"/>
+   <addaction name="actDeleteLine"/>
+   <addaction name="separator"/>
+   <addaction name="actAligenLeft"/>
+   <addaction name="actAligenCenter"/>
+   <addaction name="actAligenRight"/>
+   <addaction name="actFontBold"/>
+   <addaction name="separator"/>
+   <addaction name="actQuit"/>
+  </widget>
+  <action name="actOpenFile">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icon/5.2/6.png</normaloff>:/icon/5.2/6.png</iconset>
+   </property>
+   <property name="text">
+    <string>打开文件</string>
+   </property>
+   <property name="toolTip">
+    <string>打开文件</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::NoRole</enum>
+   </property>
+  </action>
+  <action name="actDataPreview">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icon/5.2/8.png</normaloff>:/icon/5.2/8.png</iconset>
+   </property>
+   <property name="text">
+    <string>数据预览</string>
+   </property>
+   <property name="toolTip">
+    <string>数据预览</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+P</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::NoRole</enum>
+   </property>
+  </action>
+  <action name="actAddRow">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icon/5.2/9.png</normaloff>:/icon/5.2/9.png</iconset>
+   </property>
+   <property name="text">
+    <string>添加行</string>
+   </property>
+   <property name="toolTip">
+    <string>添加行</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::NoRole</enum>
+   </property>
+  </action>
+  <action name="actInsertLine">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icon/5.2/5.png</normaloff>:/icon/5.2/5.png</iconset>
+   </property>
+   <property name="text">
+    <string>插入行</string>
+   </property>
+   <property name="toolTip">
+    <string>插入行</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::NoRole</enum>
+   </property>
+  </action>
+  <action name="actDeleteLine">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icon/5.2/7.png</normaloff>:/icon/5.2/7.png</iconset>
+   </property>
+   <property name="text">
+    <string>删除行</string>
+   </property>
+   <property name="toolTip">
+    <string>删除行</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::NoRole</enum>
+   </property>
+  </action>
+  <action name="actAligenLeft">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icon/5.2/2.png</normaloff>:/icon/5.2/2.png</iconset>
+   </property>
+   <property name="text">
+    <string>居左</string>
+   </property>
+   <property name="toolTip">
+    <string>居左</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::NoRole</enum>
+   </property>
+  </action>
+  <action name="actAligenCenter">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icon/5.2/1.png</normaloff>:/icon/5.2/1.png</iconset>
+   </property>
+   <property name="text">
+    <string>居中</string>
+   </property>
+   <property name="toolTip">
+    <string>居中</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::NoRole</enum>
+   </property>
+  </action>
+  <action name="actAligenRight">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icon/5.2/3.png</normaloff>:/icon/5.2/3.png</iconset>
+   </property>
+   <property name="text">
+    <string>居右</string>
+   </property>
+   <property name="toolTip">
+    <string>居右</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::NoRole</enum>
+   </property>
+  </action>
+  <action name="actFontBold">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icon/5.2/4.png</normaloff>:/icon/5.2/4.png</iconset>
+   </property>
+   <property name="text">
+    <string>加粗</string>
+   </property>
+   <property name="toolTip">
+    <string>加粗</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::NoRole</enum>
+   </property>
+  </action>
+  <action name="actQuit">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icon/5.2/10.png</normaloff>:/icon/5.2/10.png</iconset>
+   </property>
+   <property name="text">
+    <string>退出</string>
+   </property>
+   <property name="toolTip">
+    <string>退出</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::NoRole</enum>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>actQuit</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>299</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/icon">
+        <file>4.12/open.png</file>
+        <file>4.12/1.png</file>
+        <file>4.12/2.png</file>
+        <file>4.12/3.png</file>
+        <file>4.12/4.png</file>
+        <file>4.12/6.png</file>
+        <file>4.12/7.png</file>
+        <file>4.12/8.png</file>
+        <file>4.12/9.png</file>
+        <file>4.12/10.png</file>
+        <file>4.12/11.png</file>
+        <file>4.12/12.png</file>
+    </qresource>
+</RCC>

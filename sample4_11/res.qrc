@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/res">
+        <file>4.11/1.png</file>
+        <file>4.11/2.png</file>
+        <file>4.11/3.png</file>
+        <file>4.11/4.png</file>
+        <file>4.11/5.png</file>
+        <file>4.11/6.png</file>
+        <file>4.11/7.png</file>
+        <file>4.11/8.png</file>
+        <file>4.11/9.png</file>
+        <file>4.11/10.png</file>
+        <file>4.11/11.png</file>
+        <file>4.11/12.png</file>
+        <file>4.11/13.png</file>
+        <file>4.11/14`.png</file>
+        <file>4.11/15.png</file>
+    </qresource>
+</RCC>
