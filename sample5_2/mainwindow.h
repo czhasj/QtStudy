@@ -2,7 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-class Qlabel;
+class QLabel;
 class QStandardItemModel;
 class QItemSelectionModel;
 QT_BEGIN_NAMESPACE
@@ -16,12 +16,14 @@ class MainWindow : public QMainWindow
     Q_OBJECT
 private:
     const int FixedColumnCount=6;
-    Qlabel *labCurFlie;
-    Qlabel *labCellPos;
-    Qlabel *labCellText;
+    QLabel *labCurFlie;
+    QLabel *labCellPos;
+    QLabel *labCellText;
 
     QStandardItemModel *m_model;
     QItemSelectionModel *m_selection;
+private slots:
+    void do_currentChanged(const QModelIndex &current,const )
 
 
 
