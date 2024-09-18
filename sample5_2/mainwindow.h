@@ -23,9 +23,7 @@ private:
     QStandardItemModel *m_model;
     QItemSelectionModel *m_selection;
 private slots:
-    void do_currentChanged(const QModelIndex &current,const )
-
-
+    void do_currentChanged(const QModelIndex &current,const QModelIndex &previous);
 
 public:
     MainWindow(QWidget *parent = nullptr);
