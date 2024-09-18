@@ -4,6 +4,11 @@
 #include <QStandardItemModel>
 #include <QItemSelectionModel>
 
+void MainWindow::do_currentChanged(const QModelIndex &current, const QModelIndex &previous)
+{
+
+}
+
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
