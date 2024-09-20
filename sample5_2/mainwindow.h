@@ -25,6 +25,8 @@ private:
 private slots:
     void do_currentChanged(const QModelIndex &current,const QModelIndex &previous);
 
+    void on_actOpenFile_triggered();
+
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
