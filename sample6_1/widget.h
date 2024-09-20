@@ -19,5 +19,24 @@ public:
 
 private:
     Ui::Widget *ui;
+
+    // QWidget interface
+protected:
+    virtual void mousePressEvent(QMouseEvent *event) override;
+    virtual void keyPressEvent(QKeyEvent *event) override;
+
+    // QWidget interface
+protected:
+    virtual void paintEvent(QPaintEvent *event) override;
+
+    // QWidget interface
+protected:
+    virtual void closeEvent(QCloseEvent *event) override;
 };
+
+
+
+
+
+
 #endif // WIDGET_H
