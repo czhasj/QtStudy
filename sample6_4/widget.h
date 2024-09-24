@@ -27,15 +27,5 @@ protected:
     virtual void dropEvent(QDropEvent *event) override;
 };
 
-void Widget::resizeEvent(QResizeEvent *event)
-{
-}
 
-void Widget::dragEnterEvent(QDragEnterEvent *event)
-{
-}
-
-void Widget::dropEvent(QDropEvent *event)
-{
-}
 #endif // WIDGET_H
